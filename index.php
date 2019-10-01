@@ -33,7 +33,6 @@
       <div class="introdiv">
         <h1>Hello</h1>
         <h2>My name is Lucia</h2>
-        <img src="images/lucia.png" alt="lucia">
         <p>I'm a student at Brigham Young University - Idaho, and I'm majoring in Web Design and Development with an emphasis in Development. While my interest is in backend development and databases, I enjoy playing with and designing sites on the front end too.</p>
         <p>In this page I will be posting the projects I work on for CIT 261 Mobile Development during fall semester 2019. You can see the latest projects below. </p>
       </div> 

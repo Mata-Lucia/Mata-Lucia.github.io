@@ -44,11 +44,10 @@ img {
 
 .introdiv h2 {
     font-size: 5rem;
-    padding-bottom: 10rem;
 }
 
 .introdiv p {
-    margin: 10% 20% 10% 20%;
+    margin: 5% 20% 5% 20%;
     font-family: 'Be Vietnam', sans-serif;
     font-size: 2.5rem;
 }
@@ -59,19 +58,17 @@ img {
 
 .linkdiv {
     background-color: #ad8e9b;
-    padding: 15%;
+    padding: 10%;
 }
 
-.linkdiv a{
-    text-decoration: none;
+.linkdiv h2{
     color: black;
     font-size: 4rem;
 }
 
-.linkdiv a:hover {
+.linkdiv h2:hover {
     color: #462532;
     font-weight: bold;
-    text-decoration: none;
 }
 
 .footer {

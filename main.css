@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap');
+
+body {
+    text-align: center;
+}
+
+.navbar, .navbar-inverse {
+	border-radius: 0;
+	border: none;
+	margin-bottom: 0;
+    min-height: 80px;
+    background-color: #313030;
+}
+
+.nav li {
+	display: inline;
+	color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #ffffff;
+	font-family: 'Be Vietnam', sans-serif;
+	font-size: 1.7em;
+	font-weight: 300;
+	padding: 30px 25px 33px 25px;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+	background-color: #444444;
+	transition: 0.7s all linear;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.introdiv h1 {
+    padding-top: 10rem;
+    font-size: 7rem;
+}
+
+.introdiv h2 {
+    font-size: 5rem;
+    padding-bottom: 10rem;
+}
+
+.introdiv p {
+    margin: 10% 20% 10% 20%;
+    font-family: 'Be Vietnam', sans-serif;
+    font-size: 2.5rem;
+}
+
+.icon {
+    width: 20%;
+}
+
+.linkdiv {
+    background-color: #ad8e9b;
+    padding: 15%;
+}
+
+.linkdiv a{
+    text-decoration: none;
+    color: black;
+    font-size: 4rem;
+}
+
+.linkdiv a:hover {
+    color: #462532;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footer {
+    padding: 10%;
+}
+
+.footer p {
+    font-family: 'Be Vietnam', sans-serif;
+    font-size: 2rem;
+}
+
+.hwlinks a {
+    text-decoration: none;
+    color: black;
+    font-size: 3rem;
+    padding: 2%;
+}
+
+.hwlinks a:hover {
+    color: #462532;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.hwlinks {
+    padding: 10%;
+}

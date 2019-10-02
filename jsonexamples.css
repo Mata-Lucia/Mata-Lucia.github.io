@@ -1,0 +1,11 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section {
+    padding: 2% 0% 2% 1%;
+}
+
+.answer {
+    font-size: 1.5rem;
+}

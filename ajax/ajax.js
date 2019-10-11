@@ -21,3 +21,15 @@ function loadDoc(url, cFunction) {
     }
     document.getElementById("demo").innerHTML = out;
   }
+
+var xhttp=new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    document.getElementById("demo2").innerHTML =
+        this.getResponseHeader("Last-Modified");
+    document.getElementById("demo3").innerHTML =
+        this.getResponseHeader("Content-Type");
+  }
+};
+xhttp.open("GET", "ajax_info.txt", true);
+xhttp.send();

@@ -11,8 +11,6 @@ function loadDoc(url, cFunction) {
     xhttp.send();
   }
 
-  document.getElementById("demo").innerHTML = '<h2>Disney Movies</h2>';
-  
   function myFunction(arr) {
     var out = "";
     var i;
@@ -20,6 +18,7 @@ function loadDoc(url, cFunction) {
       out += '<a href="' + arr[i].url + '">' + 
       arr[i].display + '</a><br>';
     }
+    document.getElementById("demo").innerHTML = '<h2>Disney Movies</h2>';
     document.getElementById("demo").innerHTML = out;
   }
 

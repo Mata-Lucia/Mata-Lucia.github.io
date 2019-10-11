@@ -10,11 +10,12 @@ function loadDoc(url, cFunction) {
     xhttp.open("GET", url, true);
     xhttp.send();
   }
+
+  document.getElementById("demo").innerHTML = '<h2>Disney Movies</h2>';
   
   function myFunction(arr) {
     var out = "";
     var i;
-    document.getElementById("demo").innerHTML = '<h2>Disney Movies</h2>';
     for(i = 0; i < arr.length; i++) {
       out += '<a href="' + arr[i].url + '">' + 
       arr[i].display + '</a><br>';

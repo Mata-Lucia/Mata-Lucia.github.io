@@ -12,9 +12,9 @@ function loadDoc(url, cFunction) {
   }
   
   function myFunction(arr) {
-    document.getElementById("demo").innerHTML = '<h2>Disney Movies</h2>';
     var out = "";
     var i;
+    document.getElementById("demo").innerHTML = '<h2>Disney Movies</h2>';
     for(i = 0; i < arr.length; i++) {
       out += '<a href="' + arr[i].url + '">' + 
       arr[i].display + '</a><br>';
@@ -31,5 +31,5 @@ xhttp.onreadystatechange = function() {
         this.getResponseHeader("Content-Type");
   }
 };
-xhttp.open("GET", "ajax_info.txt", true);
+xhttp.open("GET", "ajaxlinks.txt", true);
 xhttp.send();

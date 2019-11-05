@@ -56,7 +56,7 @@ function personbuilder() {
         color: color,
         message: function() {
             return "Hello " + this.firstname + "! You live in " + this.city + " and your favorite color is " + this.color;}
-    }
+    };
     
     document.getElementById("person").innerHTML = person.message();
-}s
+}

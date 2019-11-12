@@ -1,0 +1,135 @@
+/* Transitions */
+
+.circle {
+    height: 75px;
+    width: 75px;
+    margin: 20px;
+    border-radius: 50%;
+}
+
+.circle1 {
+    background-color: #FF595E;
+    transition: transform 1s ease-in;
+}
+
+.circle2 {
+    background-color: #FFCA3A;
+    transition: transform 1s ease-out;
+}
+
+.circle3 {
+    background-color: #8AC926;
+    transition: transform 1s ease;
+}
+
+.circle4 {
+    background-color: #1982C4;
+    transition: transform 1s ease-in-out;
+}
+
+.circle5 {
+    background-color: #FFCA3A;
+    transition: transform 1s linear;
+}
+
+.container:hover .circle {
+    transform: translatex(400px);
+} 
+
+/* Transforms */
+
+.square {
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
+
+.square1 {
+    background-color: #FF595E;
+}
+
+.square1:hover {
+    transition: transform 2s ease-in-out;
+    transform: rotate(1000deg);
+}
+
+.square2 {
+    background-color: #FFCA3A;
+}
+
+.square2:hover {
+    transition: transform .5s ease-in-out;
+    transform: skewX(-20deg);
+}
+
+.square3 {
+    background-color: #1982C4;
+}
+
+.square3:hover {
+    transition: transform 2s ease-in-out;
+    transform: scale(0.5, 2);
+}
+
+.square4 {
+    background-color: #6A4C93;
+}
+
+.square4:hover {
+    transition: transform 2s ease-in-out;
+    transform: translate(15px, 40px);
+}
+
+/* Animations */
+
+@keyframes bounceIn {
+    0% {
+      transform: scale(0.1);
+      opacity: 0;
+    }
+    60% {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+.hello {
+    animation-name: bounceIn;
+    animation-duration: 4s;
+    font-size: 5rem;
+    color: #FF595E;
+    font-style: bold;
+    margin: 50px;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+}
+
+@keyframes grow {
+    0% {
+      transform: scale(.3);
+      background-color:#FF595E;
+    }
+    50% {
+      background-color: #FFCA3A;
+    }
+    100% {
+      transform: scale(1.5);
+      background-color: #6A4C93;
+    }
+}
+
+.demo {
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    margin: 50px;
+    animation-name: grow;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+}

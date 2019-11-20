@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CIT 261 Lucia Mata</title>
+    <link rel="stylesheet" href="classes.css">
+</head>
+
+<body>
+    <h1>Manipulating CSS Class Properties Using JavaScript</h1>
+    <p>We can change the style of HTML elements with JavaScript. For example, we can select all the elements with the "blue" class and loop through them to style them:</p>
+    <button onclick="addColor()">Add Color</button>
+    <p>We believe in <span class="blue">God</span>, the Eternal Father, and in His Son, <span class="blue">Jesus Christ</span>, and in the <span class="blue">Holy Ghost</span>.</p>
+
+    <p>We can also select by Id to style elements using Javascript:</p>
+    <button onclick="addStyle()">Add Style</button>
+    <p id="article2">We believe that men will be punished for their own sins, and not for Adam’s transgression.</p>
+
+    <p>Another thing we can do is use toggle to add a class to an element, for example:</p>
+    <button onclick="toggleClass()">Add Class</button>
+    <div id="article3">
+    <p>We believe that through the Atonement of Christ, all mankind may be saved, by obedience to the laws and ordinances of the Gospel.</p>
+    </div>
+
+    <p>We can also use Set Attribute to change the style of an element:</p>
+    <button onclick="changeStyle()">Change Style</button>
+    <p id="article4">We believe that the first principles and ordinances of the Gospel are: first, Faith in the Lord Jesus Christ; second, Repentance; third, Baptism by immersion for the remission of sins; fourth, Laying on of hands for the gift of the Holy Ghost.</p>
+
+    <script src="classes.js"></script>
+</body>

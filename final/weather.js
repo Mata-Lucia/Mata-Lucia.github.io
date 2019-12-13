@@ -23,12 +23,12 @@ button.addEventListener('click', function() {
         document.getElementById('location').innerHTML = '<h3>' + location + '</h3>';
         document.getElementById('icon').innerHTML = '<img src=icons/' + icon + '.png>';
         
-        if( description.indexOf('rain') > 0 ) {
+        if( description.indexOf('rain') > 0 || description.indexOf('snow') > 0 ) {
           document.body.className = 'rainy';
-        } else if( description.indexOf('cloud') > 0 ) {
+        } else if( description.indexOf('cloud') > 0 || description.indexOf('thunderstorm') > 0 || description.indexOf('mist') > 0) {
           document.body.className = 'cloudy';
-        } else if( description.indexOf('sunny') > 0 ) {
-          document.body.className = 'sunny';
+        } else {
+            document.body.className = 'sunny';
         }
     })
     .catch(function(err) {

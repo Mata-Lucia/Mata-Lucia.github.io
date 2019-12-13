@@ -32,7 +32,7 @@ button.addEventListener('click', function() {
         }
     })
     .catch(function(err) {
-        document.getElementById('error').innerHTML = "Error: " + err + ".";
+        document.getElementById('error').innerHTML = "Error: Please enter a city.";
       });
 })
 

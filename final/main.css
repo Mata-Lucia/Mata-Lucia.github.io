@@ -105,6 +105,10 @@ input {
     justify-self: center;
 }
 
+#error {
+    margin-left: 3%;
+}
+
 /* Background */
 
 body.sunny {

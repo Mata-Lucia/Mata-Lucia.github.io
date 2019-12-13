@@ -19,7 +19,7 @@ button.addEventListener('click', function() {
         results.classList.toggle("seeresults");
 
         document.getElementById('description').innerHTML = '<p>' + description + '</p>';
-        document.getElementById('temp').innerHTML = '<h3>' + fahrenheit + '&deg </h3>';
+        document.getElementById('temp').innerHTML = '<h3>' + fahrenheit + '&deg F </h3>';
         document.getElementById('location').innerHTML = '<h3>' + location + '</h3>';
         document.getElementById('icon').innerHTML = '<img src=icons/' + icon + '.png>';
         
@@ -35,3 +35,8 @@ button.addEventListener('click', function() {
         document.getElementById('error').innerHTML = "Error: " + err + ".";
       });
 })
+
+function playAudio(url) {
+    var a = new Audio(url);
+    a.play();
+  }

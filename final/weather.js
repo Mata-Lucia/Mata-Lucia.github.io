@@ -23,7 +23,9 @@ button.addEventListener('click', function() {
         document.getElementById('location').innerHTML = '<h3>' + location + '</h3>';
         document.getElementById('icon').innerHTML = '<img src=icons/' + icon + '.png>';
         
-        if( description.indexOf('rain') > 0 || description.indexOf('snow') > 0 ) {
+        if (icon.indexOf('n') > 0) {
+            document.body.className = 'night';
+        } else if ( description.indexOf('rain') > 0 || description.indexOf('snow') > 0 ) {
           document.body.className = 'rainy';
         } else if( description.indexOf('cloud') > 0 || description.indexOf('thunderstorm') > 0 || description.indexOf('mist') > 0) {
           document.body.className = 'cloudy';

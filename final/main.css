@@ -5,7 +5,7 @@
     height: 650px;
     margin: 0 auto;
     border: 3px solid #75858d;
-    background-color: #99bbcb;
+    background-color: #a1b0b8;
     box-shadow: 0 5px 5px 5px #777;
     overflow: scroll;
 }
@@ -16,7 +16,7 @@ body {
     font-size: 1.3em;
     color: #fff;
     text-shadow: .1em .1em 0 rgba(0,0,0,0.3);   
-    background-image: linear-gradient(to right top, #99bbcb, #a5c7d7, #b1d4e2, #bde0ee, #c9edfa);
+    background-image: linear-gradient(to right top, #6a9ab1, #80b8d1, #a3d6eb, #b8ddec, #d6eef7);
 }
 
 h1 {
@@ -116,9 +116,13 @@ body.sunny {
 }
 
 body.cloudy {
-    background-image: linear-gradient(to right top, #63747c, #71858e, #7f96a0, #8da8b2, #9bbac5);
+    background-image: linear-gradient(to right top, #5d6669, #71858e, #7f96a0, #8da8b2, #9bbac5);
 }
 
 body.rainy {
     background-image: linear-gradient(to right top, #637c7b, #718e8c, #7ea09e, #8db2b0, #9bc5c3);
+}
+
+body.night {
+    background-image: linear-gradient(to right top, #0a0c1b, #09104e, #050c44, #282d52, #545670);
 }

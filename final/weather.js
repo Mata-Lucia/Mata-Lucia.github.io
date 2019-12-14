@@ -27,7 +27,7 @@ button.addEventListener('click', function() {
             document.body.className = 'night';
         } else if ( description.indexOf('rain') > 0 || description.indexOf('snow') > 0 ) {
           document.body.className = 'rainy';
-        } else if( description.indexOf('cloud') > 0 || description.indexOf('thunderstorm') > 0 || description.indexOf('mist') > 0) {
+        } else if( description.indexOf('cloud') > 0 || description.indexOf('thunderstorm') > 0 || description.indexOf('mist') > 0 || description.indexOf('haze') > 0) {
           document.body.className = 'cloudy';
         } else {
             document.body.className = 'sunny';
